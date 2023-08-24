@@ -1,0 +1,28 @@
+.sidebar-row{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    
+    
+    
+}
+.sidebarrow-icon{
+    color: gray;
+    font-size: large !important;
+}
+.sidebar-row:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.sidebarrow-title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.sidebar-row:hover > .sidebarrow-icon{
+    color: red;
+}
+.sidebar-row:hover> .sidebarrow-title{
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+.relatedvideos{
+    flex: 0.75;
+    padding:40px 20px;
+    background-color: #f9f9f9;
+    padding-bottom:0 ;
+    
+
+
+}
+.ralatedvideos>h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.relatedvideos-videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.r1{
+    display: flex;
+}
